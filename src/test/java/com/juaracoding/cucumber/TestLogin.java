@@ -69,7 +69,7 @@ public class TestLogin {
     //............................................ Message
     @Then("User reading warning message")
     public void  user_reading_warning_message() {
-        Assert.assertEquals(loginPage.getWarningMessage(), "ERORR");
+        Assert.assertEquals(loginPage.getWarningMessage(), "ERROR");
         System.out.println("User field login");
     }
     @Then("User go to page tools demo site")
